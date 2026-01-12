@@ -7,10 +7,10 @@ LocalNetworkVideoPlayer is a demo app that allows users to play videos either fr
 # Preview
 
 <div>
-  <img src="images/D1.png" width="24%">
-  <img src="images/D2.png" width="24%">
-  <img src="images/D3.png" width="24%">
-  <img src="images/output5.png" width="24%">
+  <img src="screenshots/D1.png" width="24%">
+  <img src="screenshots/D2.png" width="24%">
+  <img src="screenshots/D3.png" width="24%">
+  <img src="screenshots/output5.png" width="24%">
 </div>
 
 # Use Cases
@@ -45,5 +45,5 @@ Huawei Watch 5
 
 # LICENSE
 
-SoccerScore is distributed under the terms of the MIT License.  
+LocalNetworkVideoPlayer is distributed under the terms of the MIT License.  
 See the [LICENSE](/LICENSE) for more information.

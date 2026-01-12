@@ -1,4 +1,3 @@
-import router from '@ohos.router'
 import { ArcList, ArcListItem, ComponentContent } from '@kit.ArkUI'
 import { NetworkVideoPlayer } from './NetworkVideoPlayer'
 import { LocalVideoPlayer } from './LocalVideoPlayer'
@@ -6,14 +5,12 @@ import { LocalVideoPlayer } from './LocalVideoPlayer'
 
 @Builder
 function header() {
-  Column() {
     Text('Video Options')
       .fontSize(24)
       .fontWeight(FontWeight.Bold)
       .textAlign(TextAlign.Center)
       .margin({ top: 16, bottom: 12 })
       .fontColor('#FFF8DC')
-  }
 }
 
 @Entry
@@ -37,8 +34,6 @@ export struct VideoPlayer {
   build() {
     Navigation(this.pathStack) {
       Flex() {
-        Row() {
-          Column() {
             ArcList({ header: this.header }) {
               ArcListItem() {
                 Row({ space: 10 }) {
@@ -102,9 +97,7 @@ export struct VideoPlayer {
 
             }
 
-          }
-
-        }
+        
       }.width(this.watchSize)
       .height(this.watchSize)
       .backgroundColor('#8B4513')
